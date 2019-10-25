@@ -1,0 +1,94 @@
+body {
+
+  background: url("https://vanhoecke-advocaat.be/wp-content/uploads/2018/05/laptop-kop-van-koffie-en-koekjes-58241557.jpg") no-repeat top center fixed  ;
+  background-size: cover;
+  width: 100%;
+  height: 250px;
+  font-family: 'ZCOOL XiaoWei', serif;
+
+}
+body . navbar {
+  padding-top: 30px;
+
+}
+
+html, body {
+    width: 100%;
+    height: 100%;
+}
+.container-fluid {
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+
+}
+
+
+nav{
+  background: rgba(245,222,179, 0.95);
+  border-color: rgba(255,255,255,.3);
+}
+.container-fluid p {
+  animation-duration: 3s;
+  animation-name: slidein;
+  animation-iteration-count: infinite;
+  padding: 50px;
+  margin: 250px;
+
+}
+section {
+    padding: 100px 0;
+  }
+
+.header-content-inner h1 {
+  text-align: center;
+  color: white;
+  font-size:50px;
+  margin: 100px;
+  font-family: 'ZCOOL XiaoWei', serif;
+
+}
+.header-content-inner p {
+  text-align: center;
+  font-size:15px;
+  color: white;
+  font-family: 'ZCOOL XiaoWei', serif;
+}
+.navbar-brand {
+    color: #563A19;
+    font-size: 5px;
+
+}
+
+.nav-link {
+  color: white;
+  font-size: 13px;
+
+}
+.cadre-text {
+  text-align: center;
+
+}
+.btn {
+    border: 0;
+    border-radius: 300px;
+    text-transform: uppercase;
+    font-family: 'Open Sans','Helvetica Neue',Arial,sans-serif;
+    font-weight: 700;
+  }
+#competences  {
+  background-color: rgba(61, 45, 181, 0%) !important;
+}
+#formation {
+  background-color: rgba(61, 45, 181, 0%) !important;
+}
+.list {
+  flex-direction: column;
+  align-items: center;
+  display: flex;
+  color: white;
+  font-size: 20px;
+  font-family: 'ZCOOL XiaoWei', serif;
+}
+.competenc
