@@ -61,12 +61,14 @@ section {
 .navbar-brand {
     color: #563A19;
     font-size: 5px;
+    font-family: 'ZCOOL XiaoWei', serif;
 
 }
 
 .nav-link {
-  color: white;
+  color: #563A19;
   font-size: 13px;
+  font-family: 'ZCOOL XiaoWei', serif;
 
 }
 .cadre-text {
