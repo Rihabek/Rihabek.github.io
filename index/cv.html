@@ -4,15 +4,21 @@
     <meta charset="utf-8">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-    <link href="https://fonts.googleapis.com/css?family=ZCOOL+XiaoWei&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Pacifico&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <title>CURRICULUM VITAE</title>
   </head>
-  <body>
-    <nav class="navbar navbar-expand-sm bg-no color navbar-white fixed-top affix" id="navbar">
+  <body id="haut">
+    <nav class="navbar navbar-expand-sm navbar-white fixed-top affix" id="navbar">
       <div class="container-fluid">
 
-        <a  class="navbar-brand" href="#">Belkhadiri Rihab</a>
+        <a  class="navbar-brand page-scroll" href="#haut">Belkhadiri Rihab</a>
+      </div>
 
+
+      <!-- the start navbar -->
+
+      <div class="container-fluid">
         <ul class="navbar-nav ml-auto">
 
           <li class="nav-item">
@@ -20,9 +26,9 @@
             <a class="nav-link" data-link href="#competences">Compétences</a>
           </li>
 
-          <li class="nav-item link">
+          <li class="nav-item ">
 
-            <a class="nav-link" data-link href="#formation">Mes Formations</a>
+            <a class="nav-link " data-link href="#formation">MesFormations</a>
 
           </li>
 
@@ -38,7 +44,7 @@
           </li>
 
           </ul>
-
+        </div>
         </div>
       </nav>
       <header>
@@ -47,18 +53,20 @@
             <div class="header-content-inner">
               <h1 style="color: wheat;">Développeuse Web</h1>
               <hr>
-              <p>Devenir une développeuse Web. Je suis prête et motivée pour
+              <p style="text-align: cente">Devenir une développeuse Web. Je suis prête et motivée pour
                 parfaire mes compétences acquise durant mon L1 Info-Math pour
                 faire de ma passion mon métier.
               </p>
+              <a href="#about" style="display: block; width: 500px; background: #606060; color: #ffffff; text-align: center; font-weight: bold; font-size: 30px;  font-family: Arial; border-radius: 20px; text-decoration: none;" class="btn btn-light btn-xl page-scroll ">Qui suis-je ?</a>
       </header>
       <section class=" bg-muted">
 
             <div class="container text-center">
             <div class="call-to-action">
-                <h2>Belkhadiri Rihab - Etudiante en Développement web !</h2>
+                <h2 style="color: wheat; text-align: center; font-family: 'Pacifico', cursive;">Belkhadiri Rihab - Etudiante en Développement web !</h2>
+                <p>etudiante en formation de developpelment web, c'etaits toujours mon reve de devenir une developpeuse web. Je suis passionnée par tout ce qu'est</p>
                 <div class="btn btn-default btn-xl">
-                  <a href="index/BelkhadiriRihabCV.pdf" class="btn btn-default btn-xl wow tada" > Téléchargez mon CV au format PDF !</a>
+                  <a style="display: block; width: 500px; background: #606060; color: #ffffff; text-align: center; font-weight: bold; font-size: 30px; line-height: 100px; font-family: Arial; border-radius: 20px; text-decoration: none;" href="index/celinne.pdf" class="btn btn-default btn-xl wow tada hover" > Téléchargez mon CV !</a>
 
                 </div>
             </div>
@@ -70,7 +78,7 @@
 
       <!-- objectif with descriptions -->
 
-        <section class="bg-light" id="competences">
+        <section class="bg-light text" id="competences">
                 <div class="container">
                   <div class="row">
                     <div class="col-lg-8 offset-2 text-center">
@@ -91,13 +99,15 @@ Capacité à travailler sous pression et à gérer le stress.
                   </div>
                 </div>
           </section>
-          <section class="bg-primary" id="formation">
+          <section  id="formation">
                   <div class="container">
                     <div class="row">
                       <div class="col-lg-8 offset-2 text-center">
-                        <h3 class="cadre-text"> Mes Formations</h3>
+                        <h3 class="cadre-text" ><strong> Mes Formations</strong></h3>
                         <hr class="light">
                         <ul class="list">
+                          <li><strong>2019-2020| Formation développeure web intégrateur niveau III</strong></li>
+                            <pre>ALAJI | viller lès-Nancy</pre>
                           <li><strong>2018-2019 | L1 Informatique-Mathématique</strong></li>
                             <pre>Faculté des sciences ettechnologies |Vandœuvre lés Nancy</pre>
                           <li><strong>2017-2018 | Formation DEFLE</strong></li>
@@ -112,14 +122,59 @@ Capacité à travailler sous pression et à gérer le stress.
                   </div>
                 </div>
           </section>
+          <section id="experiences">
+              <div class="container">
+                <div class="row">
+                  <div class="col-lg-8 offset-2 text-center">
+                    <h3 class="cadre-text"><strong>Expériences</strong></h3>
+                    <hr class="light">
+                    <ul class="list">
+                      <li><strong>2019-2020 | Service civique à Pôle emploi, Nancy Cristallerie(8 mois)</strong></li>
+                        <ul>
+                          <li>Sensibilisation à la dématérialisation</li>
+                          <li>Lutte contre l'acculturation numérique</li>
+                          <li>Lutte contre l'acculturation numérique</li>
+                        </ul>
+                      <li><strong>2017-2019 | Formatrice en langue étrangère, Centre de Formation Anglais Pro à Nancy</strong></li>
+                        <ul>
+                          <li>Animer des activités périscolaires en anglais</li>
+                          <li>Prendre part à des réunions institutionnelles</li>
+                          <li>Faire des remplacements dans les écoles de la ville de Nancy et alentours</li>
+                        </ul>
+                      <li><strong>2017-2018 | Animatrice volontaire, Institut scout et laïques (MJC) à Nancy</strong></li>
+                        <ul>
+                          <li>Mise en place des structures pour l’épanouissement des enfants</li>
+                          <li>Accompagner les enfants dans les activités et animationsproposées</li>
+                        </ul>
+                    </ul>
 
+                </div>
+              </div>
+            </div>
+          </section>
+            <section class="bg-dark" id="contact">
+              <div class="container">
+                <div class="containers-fluid">
+                  <div class="row">
+                    <div class="col-lg-8 offset-2 text-center">
+                      <h3 class="cadre-text text-align-centre"> <strong>Contacte</strong></h3>
+                        <p class="num">+ 33 07 61 22 25 37</p>
+                        <p class="mail">Rihabelkhadiri@hotmail.com</p>
+                        <p class="adresse">11,avenue du charmois 54500 NANCY, FRANCE</p>
+                        <div class="wrapper">
+                          <a target="_blank" href="https://www.instagram.com/rihabek/"><i class="fa fa-3x fa-instagram"></i></a>
+                          <a target="_blank" href="https://www.facebook.com/rihab.bek.12?ref=bookmarks"><i class="fa fa-3x fa-facebook-square"></i></a>
+                          <a target="_blank" href="https://twitter.com/login"><i class="fa fa-3x fa-twitter-square"></i>
+                          </div></a>
 
+                    </div>
 
+                  </div>
 
+                </div>
 
-
-
-
+              </div>
+            </section>
 
 
 
@@ -177,7 +232,11 @@ Capacité à travailler sous pression et à gérer le stress.
     </header> -->
 
     <!--# toolbar = 0-->
-
+    <footer class="py-5 bg-dark text-white text-center bottom">
+      <div class="container">
+        Copyright @ Rihabel
+      </div>
+    </footer>
 
     <script type="text/javascript">
       var elements = document.getElementById('navbar').querySelectorAll('[data-link]')

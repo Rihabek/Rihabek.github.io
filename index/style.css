@@ -1,15 +1,26 @@
 body {
 
-  background: url("https://vanhoecke-advocaat.be/wp-content/uploads/2018/05/laptop-kop-van-koffie-en-koekjes-58241557.jpg") no-repeat top center fixed  ;
+  background: url("https://hdqwalls.com/download/city-rain-blur-bokeh-effect-7w-1920x1080.jpg") no-repeat top center fixed  ;
   background-size: cover;
   width: 100%;
   height: 250px;
   font-family: 'ZCOOL XiaoWei', serif;
 
 }
+
+p {
+    margin-bottom: 20px;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
 body . navbar {
   padding-top: 30px;
 
+}
+
+.bg-secondary {
+  background-color: wheat;
 }
 
 html, body {
@@ -26,9 +37,10 @@ html, body {
 
 
 nav{
-  background: rgba(245,222,179, 0.95);
-  border-color: rgba(255,255,255,0.3);
+  background: rgba(216, 76, 95, 1);
+
 }
+
 /*.container-fluid p {
   animation-duration: 3s;
   animation-name: slidein;
@@ -47,14 +59,17 @@ section {
 .header-content-inner h1 {
   text-align: center;
   color: white;
-  font-size:40px;
-  margin: 100px;
-  font-family: 'ZCOOL XiaoWei', serif;
+  font-size:60px;
+  margin: 230px;
+  font-family: 'Pacifico', cursive;
+  border-color: #7ee7e3 ;
+  border-width:6px;
+  border-style: double;
 
 }
 .header-content-inner p {
   text-align: center;
-  font-size:15px;
+  font-size:30px;
   color: wheat;
   font-family: 'ZCOOL XiaoWei', serif;
 }
@@ -67,26 +82,53 @@ section {
 
 .nav-link {
   color: #563A19;
-  font-size: 13px;
+  font-size: 20px;
   font-family: 'ZCOOL XiaoWei', serif;
-
 }
+
+
+
+
+
 .cadre-text {
   text-align: center;
+  font-family: 'ZCOOL XiaoWei', serif;
+  color: #1C4656;
+  font-size: 30px;
 
 }
-.btn {
-    border: 0;
-    border-radius: 300px;
-    text-transform: uppercase;
-    font-family: 'Open Sans','Helvetica Neue',Arial,sans-serif;
-    font-weight: 700;
-  }
-#competences  {
-  background-color: rgba(61, 45, 181, 0%) !important;
+.num {
+  color:  wheat;
+  text-align: center;
+  font-family: 'ZCOOL XiaoWei', serif;
+  font-size: 20px;
+}
+ .mail {
+   color:  wheat;
+   text-align: center;
+   font-family: 'ZCOOL XiaoWei', serif;
+   font-size: 20px;
+
+ }
+
+.adresse {
+  color:  wheat;
+  text-align: center;
+  font-family: 'ZCOOL XiaoWei', serif;
+  font-size: 20px;
+
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+/* #competences  {
+  background-color: rgba(137, 96, 37, 0) !important;
 }
 #formation {
-  background-color: rgba(61, 45, 181, 0%) !important;
+  background-color: rgba(61, 45, 181, 0%) !important; */
 }
 .list {
   flex-direction: column;
@@ -96,4 +138,21 @@ section {
   font-size: 20px;
   font-family: 'ZCOOL XiaoWei', serif;
 }
-.competenc
+.text {
+  font-size: 20px;
+  color: #1C4656;
+  font-family: 'ZCOOL XiaoWei', serif;
+  font-weight: bold;
+}
+
+.wrapper {
+  font-size: 30px;
+  text-align: center;
+  text-decoration: none;
+  padding-left: 4%;
+}
+
+.fa:hover {
+  opacity: 0.7;
+  background-color: wheat;
+}
