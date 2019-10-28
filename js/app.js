@@ -5,9 +5,3 @@ $( document ).ready(function() {
     return false;
   });
 });
-
-
-  $( function() {
-    $( "#menu" ).menu();
-  } );
-  
