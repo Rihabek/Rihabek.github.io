@@ -66,6 +66,9 @@ nav{
   background: rgba(216, 76, 95, 1);
 
 }
+ # about .bg-dark {
+     background: rgba(216, 76, 95, 0.3) !important ;
+ }
 
 /*.container-fluid p {
   animation-duration: 3s;
@@ -111,14 +114,14 @@ div . header-content-inner {
 }
 .navbar-brand {
     color: #563A19;
-    font-size: 5px;
+    font-size: 2rem;
     font-family: 'ZCOOL XiaoWei', serif;
 
 }
 
 .nav-link {
   color: #563A19;
-  font-size: 20px;
+  font-size: 1.2rem;
   font-family: 'ZCOOL XiaoWei', serif;
 }
 
@@ -131,7 +134,7 @@ div . header-content-inner {
   font-family: 'ZCOOL XiaoWei', serif;
   color: #1C4656;
   font-size: 30px;
-  color: wheat;
+  color: ;
 
 }
 .num {
