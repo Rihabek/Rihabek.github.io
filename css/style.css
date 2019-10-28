@@ -1,6 +1,6 @@
 body {
 
-  background: url("https://hdqwalls.com/download/city-rain-blur-bokeh-effect-7w-1920x1080.jpg") no-repeat top center fixed  ;
+  background: url("https://wallpaperaccess.com/full/279681.jpg") no-repeat top center fixed  ;
   background-size: cover;
   width: 100%;
   height: 250px;
@@ -26,7 +26,7 @@ p {
 }
 }
 
-body . navbar {
+body .navbar {
   padding-top: 30px;
 
 }
@@ -41,12 +41,17 @@ html, body {
     padding: 15px 30px;
 }
 
-btn {
+.btn  a {
     border: 0;
     border-radius: 300px;
-    text-transform: uppercase;
-    font-family: 'Open Sans','Helvetica Neue',Arial,sans-serif;
-    font-weight: 700;
+    font-family: 'ZCOOL XiaoWei', serif;
+    display: block;
+    background: #961108;
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 20px;
+    font-family: Arial;
+    border-radius: 30px;
 }
 
 .navbar-toggle {
@@ -63,7 +68,7 @@ btn {
 }
 
 nav{
-  background: rgba(216, 76, 95, 1);
+  background: rgba(245, 222, 179, 0.7) !important ;
 
 }
  # about .bg-dark {
@@ -81,20 +86,22 @@ nav{
 
 
 section {
-    padding: 100px 0;
-    margin: auto;
+  padding: 100px 0;
+  margin: auto;
+}
 
-  }
+.header-content {
+  padding-top: 100px;
+}
 
 .header-content-inner h1 {
   text-align: center;
-  color: white;
-  font-size:60px;
-  margin: 230px;
-  font-family: 'Pacifico', cursive;
+  color: black;
+  font-size:70px;
+  font-family: 'ZCOOL XiaoWei', serif;
   border-color: #7ee7e3 ;
-  border-width:6px;
-  border-style: double;
+  font-weight: bold;
+
 
 
 }
@@ -106,22 +113,26 @@ div . header-content-inner {
   animation-name: example;
   animation-duration: 4s;
 }
+
+
 .header-content-inner p {
   text-align: center;
   font-size:30px;
   color: wheat;
   font-family: 'ZCOOL XiaoWei', serif;
 }
+
+
 .navbar-brand {
     color: #563A19;
-    font-size: 2rem;
+    font-size: 1.5rem;
     font-family: 'ZCOOL XiaoWei', serif;
 
 }
 
 .nav-link {
   color: #563A19;
-  font-size: 1.2rem;
+  font-size: 1.4rem;
   font-family: 'ZCOOL XiaoWei', serif;
 }
 
@@ -160,10 +171,25 @@ div . header-content-inner {
 }
 
 .fa-facebook {
-  background: #3B5998;
+  color: #961108;
 
 }
-
+.navbar-toggle {
+    position: relative;
+    float: right;
+    padding: 9px 10px;
+    margin-top: 8px;
+    margin-right: 15px;
+    margin-bottom: 8px;
+    background-color: transparent;
+    background-image: none;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    color: #961108;
+}
+.navbar-default .navbar-toggle {
+    border-color: #ddd;
+}
 
    /* margin-bottom: 60px;
    display: block;
@@ -183,6 +209,7 @@ div . header-content-inner {
 #formation {
   background-color: rgba(61, 45, 181, 0%) !important; */
 }
+
 .list {
   flex-direction: column;
   align-items: center;
@@ -199,15 +226,9 @@ div . header-content-inner {
 }
 
 .wrapper {
-  font-size: 30px;
+  font-size: 20px;
   text-align: center;
   text-decoration: none;
+  color: #961108;
   padding-left:
-}
-
-
-}
-;row {
-  marging-right:40px;
-
 }
