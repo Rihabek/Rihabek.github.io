@@ -43,10 +43,9 @@ html, body {
     border-radius: 300px;
     font-family: 'ZCOOL XiaoWei', serif;
     display: block;
-    background: #2F3977;
+    background: #463F47;
     color: #ffffff;
     font-weight: bold;
-    font-size: 1.250em;
     font-family: Arial;
     border-radius: 1.875em;
 }
@@ -68,9 +67,9 @@ nav{
   background: rgba(245, 222, 179, 0.7) !important ;
 
 }
- # about .bg-dark {
+ /* # about .bg-dark {
      background: rgba(216, 76, 95, 0.3) !important ;
- }
+ } */
 
 /*.container-fluid p {
   animation-duration: 3s;
@@ -102,14 +101,14 @@ nav{
 
 
 }
-div . header-content-inner {
+/* div . header-content-inner {
   width: 100px;
   height: 100px;
   position: relative;
   background-color: red;
   animation-name: example;
   animation-duration: 4s;
-}
+} */
 
 
 .header-content-inner p {
@@ -200,17 +199,10 @@ div . header-content-inner {
    border-radius: 20px;"
 
 } */
-/* #competences  {
-  background-color: rgba(137, 96, 37, 0) !important;
-}
-#formation {
-  background-color: rgba(61, 45, 181, 0%) !important; */
-}
+
 
 .list {
-  flex-direction: column;
   align-items: center;
-  display: flex;
   color: #1C4656;
   font-size: 20px;
   font-family: 'ZCOOL XiaoWei', serif;
@@ -227,5 +219,4 @@ div . header-content-inner {
   text-align: center;
   text-decoration: none;
   color: #961108;
-  padding-left:
 }
