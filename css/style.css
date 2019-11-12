@@ -1,9 +1,7 @@
 body {
 
-  background: url("http://www.nova.fr/sites/default/files/ressources/images/blur-1853305_960_720.jpg") no-repeat top center fixed  ;
-  background-size: cover;
-  width: 100%;
-  height: 250px;
+  background-color: black;
+
   font-family: 'ZCOOL XiaoWei', serif;
 
 }
