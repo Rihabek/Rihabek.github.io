@@ -14,14 +14,21 @@
 
   </head>
   <body id="haut">
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
-      <a class="nav-link" href="#haut">Belkhadiri Rihab</a>
+    <header class="header">
+      <h1 class="head">
+        <span class="head-name" itemprop="name">Belkhadiri Rihab</span>
+        <span class="head-function ">
+          <i >cv développeuse web full-stack  </i>
+          <i class="typed-cursor">|</i>
+        </span>
+    </header>
+    <nav id="menu" class="navbar-nav navbar-expand-lg navbar-dark  menu-absolute">
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
 
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul id="menu" class="navbar-nav ml-auto">
+        <ul class="navbar-nav ml-auto">
           <li class="nav-item">
             <a class="nav-link" data-link href="#a-propos">à propos</a>
           </li>
@@ -29,7 +36,7 @@
             <a class="nav-link " data-link href="#competences">compétences</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" data-link href="#experiences">réalisations</a>
+            <a class="nav-link" data-link href="#experiences">Formations</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" data-link href="#experiences">expérience</a>
@@ -43,16 +50,6 @@
         </ul>
       </div>
     </nav>
-
-    <header>
-      <div class="container header-content">
-        <div class=" header-content-inner ">
-          <h1 style="color:#ffbdbd; text-shadow: 0.1em 0.1em 0.1em black;">Développeuse Web</h1>
-          <hr>
-        </div>
-      </div>
-      </div>
-    </header>
     <div id="a-propos" class="section">
       <p class="title">À PROPOS </p>
       <p class="intro">Mon profil en quelques mots.</p>
@@ -64,7 +61,7 @@
           <strong itemprop="jobTitle">Développeur web</strong> curieux, autonome, rigoureux, j'aime les applications simples, rapides et efficaces.<br><br>Un sens de l'écoute et du service renforcé par 8 ans d'expérience à travailler sur des projets variés, une expertise technique en constante progression grâce à une formation perpétuelle. Motivé par le besoin de faire toujours mieux et appuyé par de solides bases acquises lors de mon parcours, je prends plaisir à relever de nouveaux challenges.<br><br>Actuellement en poste, je m'épanouis avec l'équipe de Cocolyze sur une solution SEO atypique afin de rendre le référencement simple et agréable!
         </p>
       </div>
-      <div class="btn">
+      <div class="btnn text-center">
         <a id="cv" href="index/celinne.pdf" class="btn btn-default btn-xl hover" > Téléchargez mon CV !</a>
       </div>
     </div>
@@ -221,7 +218,55 @@
   </section>
 </div>
 </div> -->
-    <div class="container-fluid bg-dark blop">
+    <section id="interets">
+      <h2 class="title"> Intérêts</h2>
+      <p class="intro"></p>
+      <ul class="row txt-center">
+        <li class="col large-col-3 large-offset-1 medium-col-4 medium-offset-0 small-col-8 small-offset-2  mmmb effect-move print-col-4">
+          <i class="print-none block mmmmt mmmmb fas fa-laptop-code blue"></i>
+          <p class="mmmb bold">Développement</p>
+          <p class="xsmall">Découvrir de nouvelles techniques, technologies, s'y familiariser et les réutiliser au service de l'innovation.</p>
+        </li>
+        <li class="col large-col-3 large-offset-0-5 medium-col-4 medium-offset-0 small-col-8 small-offset-2 mmmb effect-move print-col-4">
+          <i class="print-none block mmmmt mmmmb fas fa-film purple"></i>
+          <p class="mmmb bold">Cinéma</p>
+          <p class="xsmall">S'interroger sur un thriller, s'inspirer avec de la science-fiction ou s'évader grâce au fantastique.</p>
+        </li>
+        <li class="col large-col-3 large-offset-0-5 medium-col-4 medium-offset-0 small-col-8 small-offset-2 mmmb effect-move print-col-4">
+          <i class="print-none block mmmmt mmmmb fas fa-utensils red"></i>
+          <p class="mmmb bold">Cuisine</p>
+          <p class="xsmall">Essayer de nouvelles recettes, mijoter de petits plats et séduire les papilles de mes convives.</p>
+        </li>
+      </ul>
+    </section>
+    <section id="contact">
+      <h2 class="title white print-black"> Contact</h2>
+      <p class="intro white print-black">N'hésitez pas!</p>
+      <ul class="row txt-center">
+        <li class="col large-col-3 large-offset-1 medium-col-4 medium-offset-0 small-col-8 small-offset-2 mmmmmt mmmmb bg-light border-orange effect-hover print-col-4 print-no-mt">
+          <div class="icon icon-contact bg-orange">
+          <i class="block fas fa-phone-square effect-shake"></i>
+          </div>
+          <p class="contact-title" itemprop="telephone"><a href="tel:+33761222537">+33 7 61 22 25 37</a></p>
+        </li>
+        <li class="col large-col-3 large-offset-0-5 medium-col-4 medium-offset-0 small-col-8 small-offset-2 mmmmmt mmmmb bg-light border-cyan effect-hover print-col-4 print-no-mt">
+          <div class="icon icon-contact bg-cyan">
+          <i class="block fas fa-envelope effect-horizontal-translate"></i>
+          </div>
+          <p class="contact-title" itemprop="email"><a href="mailto:rihabelkhadiri@hotmail.com" class="ema">rihabelkhadiri<span class="aro">@</span>hotmail.com</a></p>
+        </li>
+        <li class="col large-col-3 large-offset-0-5 medium-col-4 medium-offset-0 small-col-8 small-offset-2 mmmmmt mmmmb bg-light border-pistachio effect-hover print-col-4 print-no-mt">
+          <div class="icon icon-contact bg-pistachio">
+          <i class="block fas fa-map-marked-alt effect-vertical-translate"></i>
+          </div>
+          <p class="contact-title" itemprop="address" itemscope="" itemtype="http://schema.org/PostalAddress"><span itemprop="addressLocality"><a href="https://www.google.com/maps/place/11+Avenue+du+Charmois,+54500+Vand%C5%93uvre-l%C3%A8s-Nancy/@48.6668142,6.1704227,17z/data=!3m1!4b1!4m5!3m4!1s0x47949885044bae3b:0x8fcb131c2edff91!8m2!3d48.6668142!4d6.1726114">Vandœuvre-lès-Nancy</a></span></p>
+        </li>
+      </ul>
+    </section>
+    <footer>
+
+    </footer>
+    <!-- <div class="container-fluid bg-dark blop">
       <div class="container text-center ">
         <section  id="contact">
           <div class="container">
@@ -243,31 +288,21 @@
           </div>
         </section>
       </div>
-    </div>
+    </div> -->
 
-    <footer class="py-5 bg-dark text-white text-center bottom">
+    <!-- <footer class="py-5 bg-dark text-white text-center bottom">
       <div class="container">
         Copyright @ Rihabel
       </div>
-    </footer>
-
-    <script type="text/javascript">
-      var elements = document.getElementById('navbarSupportedContent').querySelectorAll('[data-link]')
-      for (var i = 0;  i < elements.length; i++) {
-        elements[i].addEventListener('click', function (e) {
-          e.preventDefault();
-          var id = e.target.getAttribute('href')
-          var element = document.getElementById(id.replace('#', ''))
-          element.scrollIntoView({behavior: "smooth"})
-        })
-      }
-    </script>
-      <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
-      <script src="js/app.js"></script>
-      <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
-      <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
-      <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-      <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    </footer> -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <script src="https://raw.githubusercontent.com/mattboldt/typed.js/master/dist/typed.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script src="js/app.js"></script>
   </body>
 </html>

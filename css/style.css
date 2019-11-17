@@ -1,7 +1,5 @@
 body {
 
-  background: url("http://www.nova.fr/sites/default/files/ressources/images/blur-1853305_960_720.jpg") no-repeat top center fixed  ;
-  background-size: cover;
   width: 100%;
   font-family: 'ZCOOL XiaoWei', serif;
   margin: auto;
@@ -37,12 +35,7 @@ html, body, div, span,img , h1, h2, h3, h4, h5, h6, p , pre, a, abbr, small, str
     vertical-align: top;
 }
 
-hr {
-  max-width: 50px;
-  border-width: 9px;
-  border-top: 1px solid ;
-  margin: 30px auto;;
-}
+
 .mmb {
     margin-bottom: 10px;
 }
@@ -61,15 +54,89 @@ p {
     display: inline-block;
 }
 
-.content-list-info {
+/* .content-list-info {
+    display: inline-block;
+} */
+.header {
+    position: relative;
+    z-index: -999;
+    width: 100%;
+    height: 280px;
+    background-color: #677273;
+}
+.head {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    margin-top: 100px;
+    z-index: -99;
+    color: #fff;
+    text-align: center;
+}
+h1 {
     display: inline-block;
 }
 
-body .navbar {
-  padding-top: 1.875em;
-
+.head-name {
+    display: block;
+    font-size: 200%;
+    text-transform: uppercase;
+    font-weight: 900;
 }
 
+.head-function {
+    display: inline-block;
+    margin: 5px;
+    padding-top: 10px;
+    font-size: 152%;
+    text-transform: uppercase;
+    font-weight: 300;
+    border-top: 1px solid #fff;
+}
+
+@keyframes blink {
+  50% {
+    opacity: 0;
+  }
+}
+.typed-cursor {
+    position: relative;
+    top: -1px;
+    opacity: 1;
+    animation: blink 1s infinite;
+}
+
+#menu {
+    display: block;
+    width: 100%;
+    font-weight: 300;
+    text-align: center;
+    background-color: #555d5e;
+    text-transform: uppercase;
+    z-index: 999;
+}
+.menu-absolute {
+    position: absolute;
+    top: 280px;
+}
+#navbarSupportedContent {
+    cursor: pointer;
+    display: none;
+}
+
+.navbar-nav li {
+    display: inline-block;
+}
+
+.nav-item a, #, .menu-link {
+    display: block;
+    color: #b5c8ca;
+    padding: 15px 5px;
+    transition-property: color;
+    transition-duration: .5s;
+    transition-timing-function: linear;
+}
 
 
 html, body {
@@ -78,11 +145,11 @@ html, body {
 }
 
 
-.btn  a {
+.btnn  a {
     border: 0;
     border-radius: 300px;
     font-family: 'ZCOOL XiaoWei', serif;
-    background: #769C28;
+    background: #E67E22;
     color: #ffffff;
     font-weight: bold;
     font-family: Arial;
@@ -94,55 +161,34 @@ html, body {
   color: black;
 }
 
-
-
-nav{
-  background: rgba(245, 222, 179, 0.7) !important ;
-
+i {
+    transition-duration: .3s;
+    transform: translate(0,0);
 }
- /* # about .bg-dark {
-     background: rgba(216, 76, 95, 0.3) !important ;
- } */
-
-/*.container-fluid p {
-  animation-duration: 3s;
-  animation-name: slidein;
-  animation-iteration-count: infinite;
-  padding: 50px;
-  margin: 250px;
-
-}*/
-
-
-/* section {
-  padding: 100px 0;
-  margin: auto;
-} */
-
-.header-content {
-  padding-top: 100px;
+.blue {
+    color: #2e8ece;
+}
+.mmmmb {
+    margin-bottom: 40px;
 }
 
-.header-content-inner h1 {
-  text-align: center;
-  color: black;
-  font-size:4rem;
-  font-family: 'ZCOOL XiaoWei', serif;
-  border-color: #7ee7e3 ;
-  font-weight: bold;
-
-
-
+.mmmmt {
+    margin-top: 40px;
+}
+.block {
+    display: block;
 }
 
-.header-content-inner p {
-  text-align: center;
-  font-size:2.5rem;
-
-  font-family: 'ZCOOL XiaoWei', serif;
+.purple {
+    color: #a66bbe;
+}
+.xsmall {
+    font-size: 75%;
 }
 
-
+.bold {
+    font-weight: 700;
+}
 .navbar-brand {
     color: #563A19;
     font-size: 1.5rem;
@@ -155,7 +201,7 @@ nav{
   font-family: 'ZCOOL XiaoWei', serif;
 }
 
-#competences, #diplomes {
+#competences {
   background-color: #f4f4f4;
 }
 section, .section {
@@ -181,47 +227,12 @@ section, .section {
   font-weight: 900;
 }
 
-.cadre-text {
-  text-align: center;
-  font-family: 'ZCOOL XiaoWei', serif;
-  color: #1C4656;
-  font-size: 30px;
-  color: ;
-
-}
-.num {
-  color:  wheat;
-  text-align: center;
-  font-family: 'ZCOOL XiaoWei', serif;
-  font-size: 20px;
-}
- .mail {
-   color:  wheat;
-   text-align: center;
-   font-family: 'ZCOOL XiaoWei', serif;
-   font-size: 20px;
-
- }
-
-.adresse {
-  color:  wheat;
-  text-align: center;
-  font-family: 'ZCOOL XiaoWei', serif;
-  font-size: 20px;
-
-}
-
-.fa-facebook {
-  color: #961108;
-
-}
 
 #a-propos, #experience {
     background-color: #f8f8f8;
 }
 
-
-.navbar-toggle {
+/* .navbar-toggle {
   position: relative;
   float: right;
   padding: 9px 10px;
@@ -233,7 +244,7 @@ section, .section {
   border: 1px solid transparent;
   border-radius: 4px;
   color: #961108;
-}
+} */
 .navbar-default .navbar-toggle {
     border-color: #ddd;
 }
@@ -303,10 +314,18 @@ section, .section {
 .large-offset-3 {
     margin-left: 25.25%;
 }
+@media screen and (min-width: 980px)
+.large-offset-0-5 {
+    margin-left: 5%;
+}
 
 .content-date-year {
     font-weight: 700;
     margin-bottom: 5px;
+}
+
+.red {
+    color: #e74c3c;
 }
 
 .content-date {
@@ -370,6 +389,13 @@ section, .section {
 #a-propos, #experiences {
     background-color: #f8f8f8;
 }
+
+.fa-laptop-code , .fa-film , .fa-utensils{
+  font-size: -webkit-xxx-large;
+}
+
+
+
 
 .col {
     display: block;
@@ -465,10 +491,65 @@ ol, ul {
     transition: 0.9s;
     transform: rotateY(180deg);
 }
-.icon:hover .fa-deskto{
+.icon:hover .fa-desktop{
 
     transition: 0.9s;
     transform: rotateY(180deg);
+}
+.bg-light {
+    background-color: #f4f4f4;
+}
+.border-orange {
+    border-bottom: 2px solid #f39c12;
+}
+.mmmmmt {
+    margin-top: 60px;
+}
+.mmmmb {
+    margin-bottom: 40px;
+}
+.icon-contact {
+    border: 10px solid #677273;
+}
+
+.bg-orange {
+    background-color: #f39c12;
+}
+.contact-title a {
+    color: #677273;
+}
+.bg-pistachio {
+    background-color: #40d47e;
+}
+.border-pistachio {
+    border-bottom: 2px solid #40d47e;
+}
+#contact {
+    background-color: #677273;
+}
+.white {
+    color: #fff;
+}
+a {
+    color: #f0f0f0;
+    text-decoration: none;
+}
+.contact-title {
+    font-size: 110%;
+    font-weight: 700;
+    margin: 20px 0;
+}
+.border-cyan {
+    border-bottom: 2px solid #65c6bb;
+}
+.bg-cyan {
+    background-color: #65c6bb;
+}
+
+.effect-move i {
+    transition-duration: .3s;
+    transition-timing-function: ease-out;
+    transform: translate(0,0);
 }
 .blop {
   padding-bottom: 1rem;
