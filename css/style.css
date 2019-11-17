@@ -3,15 +3,48 @@ body {
   background: url("http://www.nova.fr/sites/default/files/ressources/images/blur-1853305_960_720.jpg") no-repeat top center fixed  ;
   background-size: cover;
   width: 100%;
-  height: 250px;
   font-family: 'ZCOOL XiaoWei', serif;
+  margin: auto;
+  font-size: 90%;
+  color: #677273;
+  font-family: roboto,sans-serif;
+  min-height: 320px;
+  min-width: 240px;
+  cursor: default;
 
 }
+html, body, div, span,img , h1, h2, h3, h4, h5, h6, p , pre, a, abbr, small, strong, i , center ,footer, header, menu, nav, ul , li , section {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+.fa-square {
+    color: #1ba39c;
+}
+.xsmall-col-6 {
+    width: 48.5%;
+}
+
+.fa-square {
+    position: relative;
+    top: -1px;
+    display: inline-block;
+    margin: 0 5px;
+    text-align: center;
+    vertical-align: top;
+}
+
 hr {
   max-width: 50px;
   border-width: 9px;
   border-top: 1px solid ;
   margin: 30px auto;;
+}
+.mmb {
+    margin-bottom: 10px;
 }
 
 p {
@@ -24,12 +57,19 @@ p {
     margin-inline-start: 0em;
     margin-inline-end: 0em;
 }
+.inline-block {
+    display: inline-block;
+}
+
+.content-list-info {
+    display: inline-block;
 }
 
 body .navbar {
   padding-top: 1.875em;
 
 }
+
 
 
 html, body {
@@ -48,19 +88,13 @@ html, body {
     font-family: Arial;
     border-radius: 1.875em;
 }
-
-.navbar-toggle {
-    position: relative;
-    float: right;
-    padding: 9px 10px;
-    margin-top: 8px;
-    margin-right: 15px;
-    margin-bottom: 8px;
-    background-color: transparent;
-    background-image: none;
-    border: 1px solid black;
-    border-radius: 4px;
+.icon {
+  font-size: 7rem;
+  background-color: lightblue ;
+  color: black;
 }
+
+
 
 nav{
   background: rgba(245, 222, 179, 0.7) !important ;
@@ -117,14 +151,35 @@ nav{
 }
 
 .nav-link {
-  color: #563A19;
   font-size: 1.4rem;
   font-family: 'ZCOOL XiaoWei', serif;
 }
 
+#competences, #diplomes {
+  background-color: #f4f4f4;
+}
+section, .section {
+  padding: 90px 0 120px;
+}
 
+.intro {
+  margin: 5px 0 60px;
+  font-size: 90%;
+  font-weight: 300;
+  font-style: italic;
+  text-align: center;
+}
 
-
+.title {
+  display: inline-block;
+  width: 100%;
+  padding: 5px 0;
+  margin-top: 40px;
+  text-align: center;
+  font-size: 160%;
+  text-transform: uppercase;
+  font-weight: 900;
+}
 
 .cadre-text {
   text-align: center;
@@ -160,35 +215,183 @@ nav{
   color: #961108;
 
 }
+
+#a-propos, #experience {
+    background-color: #f8f8f8;
+}
+
+
 .navbar-toggle {
-    position: relative;
-    float: right;
-    padding: 9px 10px;
-    margin-top: 8px;
-    margin-right: 15px;
-    margin-bottom: 8px;
-    background-color: transparent;
-    background-image: none;
-    border: 1px solid transparent;
-    border-radius: 4px;
-    color: #961108;
+  position: relative;
+  float: right;
+  padding: 9px 10px;
+  margin-top: 8px;
+  margin-right: 15px;
+  margin-bottom: 8px;
+  background-color: transparent;
+  background-image: none;
+  border: 1px solid transparent;
+  border-radius: 4px;
+  color: #961108;
 }
 .navbar-default .navbar-toggle {
     border-color: #ddd;
 }
 
-   /* margin-bottom: 60px;
-   display: block;
-   margin-left: 40%;
-   width: 500px;
-   background: #606060;
-   color: #ffffff;
-   text-align: center;
-   font-weight: bold;
-   font-size: 30px;
-   border-radius: 20px;"
+.mmmt {
+    margin-top: 20px;
+}
 
-} */
+@media screen and (min-width: 980px)
+.large-offset-1 {
+  margin-left: 8.75%;
+}
+
+@media screen and (min-width: 980px)
+.large-offset-1 {
+    margin-left: 8.75%;
+}
+
+@media screen and (min-width: 768px)
+.medium-col-2 {
+    width: 15.5%;
+}
+
+@media screen and (min-width: 481px)
+.small-col-8 {
+    width: 65%;
+}
+
+@media screen and (min-width: 980px)
+.large-col-3 {
+    width: 23.75%;
+}
+@media screen and (min-width: 980px)
+.large-offset-right-1 {
+    margin-right: 9.75%;
+}
+
+@media screen and (min-width: 980px)
+.large-col-8 {
+    width: 65%;
+}
+@media screen and (min-width: 768px)
+.content-title {
+    margin-bottom: 0;
+}
+@media screen and (min-width: 768px)
+.medium-txt-left {
+    text-align: left;
+}
+@media screen and (min-width: 768px)
+.medium-col-10 {
+    width: 81.5%;
+}
+
+@media screen and (min-width: 768px)
+.medium-block {
+    display: block;
+}
+
+@media screen and (min-width: 768px)
+.medium-col-2 {
+    width: 15.5%;
+}
+
+
+@media screen and (min-width: 980px)
+.large-offset-3 {
+    margin-left: 25.25%;
+}
+
+.content-date-year {
+    font-weight: 700;
+    margin-bottom: 5px;
+}
+
+.content-date {
+    text-align: center;
+    color: #fff;
+}
+
+.bg-ming {
+    background-color: #1ba39c;
+}
+
+.mb {
+    margin-bottom: 5px;
+}
+.mt {
+    margin-top: 5px;
+}
+
+.content-title {
+    font-size: 120%;
+    font-weight: 700;
+    margin-bottom: 5px;
+}
+.col-right {
+    float: right;
+    width: 99%;
+    margin-left: .5%;
+    margin-right: .5%;
+}
+
+.bg-white {
+    background-color: #fff;
+}
+
+.border-carrot {
+  border-bottom: 2px solid #e67e22;
+}
+
+.border-blue {
+    border-bottom: 2px solid #2e8ece;
+}
+
+.exact {
+    margin-top: 60px;
+}
+
+.nobe {
+    margin-bottom: 40px;
+}
+
+.row {
+    width: 96%;
+    margin-left: 2.125%;
+    margin-right: 0;
+}
+
+.mmmb {
+    margin-bottom: 20px;
+}
+
+#a-propos, #experiences {
+    background-color: #f8f8f8;
+}
+
+.col {
+    display: block;
+    float: left;
+    width: 99%;
+    margin-left: .5%;
+    margin-right: .5%;
+}
+div {
+    display: block;
+}
+.clear {
+    clear: both;
+}
+
+.txt-center {
+    text-align: center;
+}
+
+.border-purple {
+    border-bottom: 2px solid #a66bbe;
+}
 
 
 .list {
@@ -204,13 +407,69 @@ nav{
   /* font-weight: bold; */
 }
 
-.wrapper {
+.wrapper{
   font-size: 20px;
   text-align: center;
   text-decoration: none;
   color: #961108;
 }
+.icon {
+    display: inline-block;
+    margin-top: -50px;
+    width: 100px;
+    font-size: 300%;
+    padding: 10px;
+    color: #fff;
+}
+.icon-skill {
+    border: 10px solid #f4f4f4;
+}
 
+ol, ul {
+    list-style: none;
+}
+
+
+.skill-title {
+    display: block;
+    font-size: 110%;
+    font-weight: 700;
+    text-align: center;
+    margin: 20px 0 15px;
+}
+
+.skill-list>li {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.bg-blue {
+    background-color: #2e8ece;
+}
+
+.bg-purple {
+    background-color: #a66bbe;
+}
+
+.bg-carrot {
+    background-color: #e67e22;
+}
+
+.icon:hover .fa-plus-square{
+
+    transition: 0.9s;
+    transform: rotateY(180deg);
+}
+.icon:hover .fa-layer-group{
+
+    transition: 0.9s;
+    transform: rotateY(180deg);
+}
+.icon:hover .fa-deskto{
+
+    transition: 0.9s;
+    transform: rotateY(180deg);
+}
 .blop {
   padding-bottom: 1rem;
 

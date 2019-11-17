@@ -1,18 +1,21 @@
 <!DOCTYPE html>
-<html lang="en" dir="ltr">
+<html lang="fr" dir="ltr">
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, user-scalable=no">
+    <meta property="og:url" content="https://belkhadiririhab.net/" />
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css?family=Pacifico&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/all.min.css">
     <link rel="stylesheet" href="css/style.css">
-    <title>CURRICULUM VITAE</title>
+    <link rel="canonical" href="https://belkhadiririhab.net/" />
+    <title>Belkhadiri Rihab CV</title>
 
   </head>
-  <body id="haut"  >
+  <body id="haut">
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
-      <a class="navbar-brand" href="#haut">Belkhadiri Rihab</a>
+      <a class="nav-link" href="#haut">Belkhadiri Rihab</a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
@@ -20,18 +23,23 @@
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul id="menu" class="navbar-nav ml-auto">
           <li class="nav-item">
-            <a class="nav-link" data-link href="#competences">Compétences</a>
+            <a class="nav-link" data-link href="#a-propos">à propos</a>
           </li>
           <li class="nav-item ">
-            <a class="nav-link " data-link href="#formation">Mes Formations</a>
+            <a class="nav-link " data-link href="#competences">compétences</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" data-link href="#experiences">Expériences</a>
+            <a class="nav-link" data-link href="#experiences">réalisations</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" data-link href="#contact">Contact</a>
+            <a class="nav-link" data-link href="#experiences">expérience</a>
           </li>
-
+          <li class="nav-item">
+            <a class="nav-link" data-link href="#contact">intérêts</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" data-link href="#contact">contact</a>
+          </li>
         </ul>
       </div>
     </nav>
@@ -42,81 +50,126 @@
           <h1 style="color:#ffbdbd; text-shadow: 0.1em 0.1em 0.1em black;">Développeuse Web</h1>
           <hr>
         </div>
-        <div class="btn btn-default btn-lg">
-            <a href="#about" class="btn btn-default btn-xl hover" > Qui suis-je ?</a>
-        </div>
       </div>
       </div>
     </header>
-    <div class="container-fluid bg-dark">
-      <div class="container text-center ">
-        <section id="about" >
-          <div class="call-to-action">
-            <h2 >Belkhadiri Rihab - Etudiante en Développement web </h2>
-            <hr>
-            <p >J’ai eu un Bac S avec mention très bien en arabie saudite, J’ai fait un an à la faculté des sciences et technology en informatique et mathématique. Actuellemnt je suis en Formation de dévellepement web au seins de ALAJI a viller lès nancy, c’étais le bon chois d’intégre cette formation car je suis entrain de faire des choses qui me plaire. Devenir une développeuse Web. Je suis prête et motivée pour
-              parfaire mes compétences acquise durant mon L1 Info-Math pour
-              faire de ma passion mon métier</p>
-            <div class="btn btn-default btn-lg">
-              <a id="cv" href="index/celinne.pdf" class="btn btn-default btn-xl hover" > Téléchargez mon CV !</a>
-            </div>
+    <div id="a-propos" class="section">
+      <p class="title">À PROPOS </p>
+      <p class="intro">Mon profil en quelques mots.</p>
+      <div class="row mmmb">
+        <div class="col medium-col-4 print-none txt-center mmmb">
+          <img src="img/photo.png" alt="developpeur web full stack" width="230" height="230" class="mt" itemprop="image">
+        </div>
+        <p class="col large-col-7 medium-col-8 medium-offset-0 small-col-8 small-offset-2 mmmt">
+          <strong itemprop="jobTitle">Développeur web</strong> curieux, autonome, rigoureux, j'aime les applications simples, rapides et efficaces.<br><br>Un sens de l'écoute et du service renforcé par 8 ans d'expérience à travailler sur des projets variés, une expertise technique en constante progression grâce à une formation perpétuelle. Motivé par le besoin de faire toujours mieux et appuyé par de solides bases acquises lors de mon parcours, je prends plaisir à relever de nouveaux challenges.<br><br>Actuellement en poste, je m'épanouis avec l'équipe de Cocolyze sur une solution SEO atypique afin de rendre le référencement simple et agréable!
+        </p>
+      </div>
+      <div class="btn">
+        <a id="cv" href="index/celinne.pdf" class="btn btn-default btn-xl hover" > Téléchargez mon CV !</a>
+      </div>
+    </div>
+    <div class="section" id="competences">
+      <p class="title">Compétences</p>
+      <p class="intro">Autodidacte, je me forme facilement.</p>
+      <ul class="row txt-center">
+        <li class="col large-col-3 large-offset-1 medium-col-4 medium-offset-0 small-col-8 small-offset-2 bg-white exact nobe border-blue effect-hover print-col-4 print-no-mt">
+          <div class="icon icon-skill bg-blue ">
+            <i class="fas fa-layer-group"></i>
           </div>
-        </section>
-      </div>
+          <p class="skill-title ">Back-end</p>
+            <ul class="skill-list">
+              <li>PHP / MySQL</li>
+              <li><abbr title="architecture 3 tiers : Modèle, Vue, Contrôleur">MVC</abbr></li>
+              <li>Linux Ubuntu </li>
+            </ul>
+        </li>
+        <li class="col large-col-3 large-offset-0-5 medium-col-4 medium-offset-0 small-col-8 small-offset-2 bg-white exact border-purple nobe txt-center effect-hover print-col-4 print-no-mt">
+          <div class=" icon icon-skill bg-purple">
+            <i class="fa fa-desktop"></i>
+          </div>
+          <p class="skill-title ">Front-end</p>
+            <ul class="skill-list">
+              <li>HTML / CSS / JavaScript</li>
+              <li>JQuery / Bootstrap</li>
+              <li>Python / Ajax </li>
+            </ul>
+        </li>
+        <li class="col large-col-3 large-offset-0-5 medium-col-4 medium-offset-0 small-col-8 small-offset-2 bg-white exact nobe border-carrot txt-center effect-hover print-col-4 print-no-mt">
+          <div class=" icon icon-skill bg-carrot">
+          <i class="fa fa-plus-square"></i>
+          </div>
+          <p class="skill-title ">Extra</p>
+            <ul class="skill-list">
+              <li><abbr title="Search Engine Optimization">SEO</abbr></li>
+              <li>Sécurité</li>
+              <li>Anglais technique</li>
+            </ul>
+        </li>
+      </ul>
     </div>
-    <div class="container-fluid bg-light text blop ">
-      <div class="container text-center">
-        <section id="competences" >
-          <h2 >Compétences</h2>
-          <hr class="light">
-            <p>Internet :Utilisation très fréquente, Navigateurs et services internet</p>
-            <p>Développement : PYTHON, PHP,C.</>
-            <p>Standards informatiques :SQL, HTML, CSS, DOM (JavaScript),Bootstrap.</p>
-            <p>Systèmes d’exploitation :Windows , Linux</p>
-            <p>Forte en Informatique et Microsoft Office.</p>
-            <p>Prise d'initiatives et résolution de problèmes.</p>
-            <p>Aptitude à travailler en équipe.</p>
-            <p>Capacité à travailler sous pression et à gérer le stress.</p>
-            <p>Capacité à actualiser ses connaissances.</p>
-
-        </section>
+    <section id="experiences">
+      <h3 class="title" >Expériences</h3>
+      <p class="intro">Polyvalent, je m'adapte rapidement.</p>
+      <div class="row mmmb">
+        <p class="col-right large-col-8 large-offset-right-1 medium-col-10 medium-txt-left content-title txt-center print-col-10 print-txt-left">
+          Service civique
+        </p>
+        <div class="col-right large-col-8 large-offset-right-1 medium-col-10 medium-txt-left mmb txt-center print-col-10 print-txt-left">
+          <p class="inline-block">Pôle emploi Nancy Cristallerie</p>
+        </div>
+          <p class="col large-offset-1 medium-col-2 medium-offset-0 small-col-8 small-offset-2 xsmall-col-12 content-date mb bg-ming print-col-2 print-ming">
+            <span class="medium-block content-date-month print-block">
+              <abbr title="01/06">Juin</abbr>
+            </span>
+            <span class="medium-block content-date-year print-block"> 2019</span>
+          </p>
+        <div class="col large-offset-3 small-col-8 small-offset-2 clear">
+        <p>
+          <i class="fas fa-square"></i>
+          Sensibilisation à la dématérialisation
+        </p>
+        </div>
+        <div class="col large-offset-3 small-col-8 small-offset-2 clear">
+        <p>
+          <i class="fas fa-square"></i>
+          Lutte contre l'acculturation numérique
+        </p>
+        </div>
+        <div class="col large-offset-3 small-col-8 small-offset-2 clear">
+        <p>
+          <i class="fas fa-square"></i>
+          Sensibilisation à la dématérialisation
+        </p>
+        </div>
       </div>
-    </div>
-    <div class="container-fluid bg-dark text blop">
-      <div class="container text-center ">
-        <section id="formation"  >
-              <h3 ><strong> Mes Formations</strong></h3>
-              <hr class="light">
-
-                  <strong>2019-2020| Formation développeur web intégrateur niveau III</strong>
-                  <p >ALAJI | villers lès-Nancy</p>
-
-
-                  <strong>2018-2019 | L1 Informatique-Mathématique</strong>
-                  <p >Faculté des sciences et technologies |Vandœuvre lès Nancy</p>
-
-
-                  <strong>2017-2018 | Formation DEFLE</strong>
-                  <p>Faculté de lettres et sciences humaines</p>
-
-
-                  <strong>2015-2016 | Baccalauréat Scientifique, Mention très bien</strong>
-                  <p >Lycée 86éme | DjeddahArabie Saoudite</p>
-
-
-                  <strong>2013-2014 | Formation en Informatique générale</strong>
-                  <p >Lycée 86éme | DjeddahArabie Saoudite</p>
-
-
-        </section>
+      <div class="row mmmb">
+        <p class="col-right large-col-8 large-offset-right-1 medium-col-10 medium-txt-left content-title txt-center print-col-10 print-txt-left">
+          Formatrice en langue étrangère Anglais Pro à Nancy
+        </p>
+        <p class="col large-col-1 large-offset-1 medium-col-1 medium-offset-0 small-col-4 small-offset-2 xsmall-col-6 content-date bg-ming print-col-1 print-ming">
+          <span class="medium-block content-date-month print-block">November</span>
+          <span class="medium-block content-date-year print-block">2017</span>
+        </p>
+        <p class="col large-col-1 medium-col-1 small-col-4 xsmall-col-6 content-date mb bg-ming print-col-1 print-ming">
+          <span class="medium-block content-date-month print-block">Mars</span>
+          <span class="medium-block content-date-year print-block">2019</span>
+        </p>
       </div>
-    </div>
+    </section>
+
+
+<!--
+    <ul class="content-list-info">
+      <li>Sensibilisation à la dématérialisation</li>
+      <li>Lutte contre l'acculturation numérique</li>
+      <li>Former le public à l'utilisation de l'équipement informatique</li>
+    </ul> -->
+
+
     <div class="container-fluid bg-light blop">
       <div class="container text-center ">
         <section id="experiences">
             <div class="container">
-                  <h3 class="cadre-text" ><strong>Expériences</strong></h3>
-                  <hr class="light">
                     <strong>2019-2020 | Service civique à Pôle emploi, Nancy Cristallerie(8 mois)</strong>
 
                         <p>Sensibilisation à la dématérialisation</p>
@@ -139,6 +192,35 @@
         </section>
       </div>
     </div>
+    <!-- <div class="container-fluid bg-dark text blop">
+    <div class="container text-center ">
+    <section id="formation"  >
+    <h3 ><strong> Mes Formations</strong></h3>
+    <hr class="light">
+
+    <strong>2019-2020| Formation développeur web intégrateur niveau III</strong>
+    <p >ALAJI | villers lès-Nancy</p>
+
+
+    <strong>2018-2019 | L1 Informatique-Mathématique</strong>
+    <p >Faculté des sciences et technologies |Vandœuvre lès Nancy</p>
+
+
+    <strong>2017-2018 | Formation DEFLE</strong>
+    <p>Faculté de lettres et sciences humaines</p>
+
+
+    <strong>2015-2016 | Baccalauréat Scientifique, Mention très bien</strong>
+    <p >Lycée 86éme | DjeddahArabie Saoudite</p>
+
+
+    <strong>2013-2014 | Formation en Informatique générale</strong>
+    <p >Lycée 86éme | DjeddahArabie Saoudite</p>
+
+
+  </section>
+</div>
+</div> -->
     <div class="container-fluid bg-dark blop">
       <div class="container text-center ">
         <section  id="contact">
@@ -151,9 +233,9 @@
                   <p class="mail">Rihabelkhadiri@hotmail.com</p>
                   <p class="adresse">11,avenue du charmois 54500 NANCY, FRANCE</p>
                   <div class="wrapper">
-                    <a target="_blank" href="https://www.instagram.com/rihabek/"><i style="color:pink;"class="fa fa-3x fa-instagram"></i></a>
-                    <a target="_blank" href="https://www.facebook.com/rihab.bek.12"><i style="color:pink;" class="fa fa-3x fa-facebook-square"></i></a>
-                    <a target="_blank" href="https://twitter.com/login"><i style="color:pink;" class="fa fa-3x fa-twitter-square"></i>
+                    <a target="_blank" href="https://www.instagram.com/rihabek/"><i style="color:pink;"class="fas fa-3x fa-instagram"></i></a>
+                    <a target="_blank" href="https://www.facebook.com/rihab.bek.12"><i style="color:pink;" class="far fa-3x fa-facebook-square"></i></a>
+                    <a target="_blank" href="https://twitter.com/login"><i style="color:pink;" class="fas fa-3x fa-twitter-square"></i>
                   </div>
                 </div>
               </div>
