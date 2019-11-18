@@ -1,147 +1,252 @@
 <!DOCTYPE html>
-<html lang="en" dir="ltr">
+<html lang="fr" dir="ltr">
   <head>
     <meta charset="utf-8">
-    <link rel="stylesheet" href="css/style.css">
     <meta name="viewport" content="width=device-width, user-scalable=no">
+    <meta property="og:url" content="https://belkhadiririhab.net/" />
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css?family=Pacifico&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <title>Belkhadiri Rihab</title>
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="canonical" href="https://belkhadiririhab.net/" />
+    <title>Belkhadiri Rihab CV</title>
 
   </head>
-  <body id="haut"  >
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
-      <a class="navbar-brand" href="#haut">Belkhadiri Rihab</a>
+  <body>
+    <header class="header">
+      <h1 class="head">
+        <span class="head-name" itemprop="name">Belkhadiri Rihab</span>
+        <span class="head-function ">
+          <i >cv développeuse web full-stack  </i>
+          <i class="typed-cursor">|</i>
+        </span>
+    </header>
+    <nav id="menu" class="navbar-nav navbar-expand-lg navbar-dark  menu-absolute">
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
 
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul id="menu" class="navbar-nav ml-auto">
+        <ul class="navbar-nav text-center mx-auto">
           <li class="nav-item">
-            <a class="nav-link" data-link href="#competences">Compétences</a>
+            <a class="nav-link" data-link href="#a-propos">à propos</a>
           </li>
           <li class="nav-item ">
-            <a class="nav-link " data-link href="#formation">Mes Formations</a>
+            <a class="nav-link " data-link href="#competences">compétences</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" data-link href="#experiences">Expériences</a>
+            <a class="nav-link" data-link href="#experiences">expérience</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" data-link href="#contact">Contact</a>
+            <a class="nav-link" data-link href="#interets">intérêts</a>
           </li>
-
+          <li class="nav-item">
+            <a class="nav-link" data-link href="#contact">contact</a>
+          </li>
         </ul>
       </div>
     </nav>
-
-    <header>
-      <div class="container header-content">
-        <div class="text-center">
-          <div class=" header-content-inner ">
-            <h1 style="color:#ffbdbd; text-shadow: 0.1em 0.1em 0.1em black;">Développeuse Web</h1>
-            <hr>
+    <div id="a-propos" class="section">
+      <p class="title">À PROPOS </p>
+      <p class="intro">Mon profil en quelques mots.</p>
+      <div class="row mmmb">
+        <div class="col medium-col-4 print-none txt-center mmmb">
+          <img src="img/photo.png" alt="developpeur web full stack" width="230" height="230" class="mt" itemprop="image">
+        </div>
+        <p class="col large-col-7 medium-col-8 medium-offset-0 small-col-8 small-offset-2 mmmt">
+          <strong>Développeuse web</strong> curieuse, autonome, rigoureuse,
+            j'aime les applications simples, rapides et efficaces.<br><br>Un sens de l'écoute,
+            une expertise technique en constante progression grâce à une formation perpétuelle.
+            Motivé par le besoin de faire toujours mieux et appuyé par de solides
+            bases acquises lors de mon parcours,
+            je prends plaisir à relever de nouveaux challenges.<br><br>
+            Actuellement en formation, je cherche un stage de fin étude du 11may 2020 pendant semaine!
+        </p>
+      </div>
+      <div class="btnn text-center">
+        <a id="cv" target="_blank" href="css/celine.pdf" class="btn btn-default btn-xl hover" > Téléchargez mon CV !</a>
+      </div>
+    </div>
+    <div class="section" id="competences">
+      <p class="title">Compétences</p>
+      <p class="intro">Autodidacte, je me forme facilement.</p>
+      <ul class="row txt-center">
+        <li class="col large-col-3 large-offset-1 medium-col-4 medium-offset-0 small-col-8 small-offset-2 bg-white exact nobe border-blue effect-hover print-col-4 print-no-mt">
+          <div class="icon icon-skill bg-blue ">
+            <i class="fas fa-layer-group"></i>
           </div>
-          <div class="btn btn-default">
-            <a href="#about" class="btn btn-default btn-xl hover"> Qui suis-je ?</a>
+          <p class="skill-title ">Back-end</p>
+            <ul class="skill-list">
+              <li>PHP / MySQL</li>
+              <li><abbr title="architecture 3 tiers : Modèle, Vue, Contrôleur">MVC</abbr></li>
+              <li>Linux Ubuntu </li>
+            </ul>
+        </li>
+        <li class="col large-col-3 large-offset-0-5 medium-col-4 medium-offset-0 small-col-8 small-offset-2 bg-white exact border-purple nobe txt-center effect-hover print-col-4 print-no-mt">
+          <div class=" icon icon-skill bg-purple">
+            <i class="fa fa-desktop"></i>
           </div>
+          <p class="skill-title ">Front-end</p>
+            <ul class="skill-list">
+              <li>HTML / CSS / JavaScript</li>
+              <li>JQuery / Bootstrap</li>
+              <li>Python / Ajax </li>
+            </ul>
+        </li>
+        <li class="col large-col-3 large-offset-0-5 medium-col-4 medium-offset-0 small-col-8 small-offset-2 bg-white exact nobe border-carrot txt-center effect-hover print-col-4 print-no-mt">
+          <div class=" icon icon-skill bg-carrot">
+          <i class="fa fa-plus-square"></i>
+          </div>
+          <p class="skill-title ">Extra</p>
+            <ul class="skill-list">
+              <li><abbr title="Search Engine Optimization">SEO</abbr></li>
+              <li>Sécurité</li>
+              <li>Anglais technique</li>
+            </ul>
+        </li>
+      </ul>
+    </div>
+    <section id="experiences">
+      <h3 class="title" >Expériences</h3>
+      <p class="intro">Polyvalent, je m'adapte rapidement.</p>
+      <div class="row mmmb">
+        <p class="col-right large-col-8 large-offset-right-1 medium-col-10 medium-txt-left content-title txt-center print-col-10 print-txt-left">
+          Service civique
+        </p>
+        <div class="col-right large-col-8 large-offset-right-1 medium-col-10 medium-txt-left mmb txt-center print-col-10 print-txt-left">
+          <p class="inline-block">Pôle emploi Nancy Cristallerie</p>
+        </div>
+          <p class="col large-offset-1 medium-col-2 medium-offset-0 small-col-8 small-offset-2 xsmall-col-12 content-date mb bg-ming print-col-2 print-ming brpp">
+            <span class="medium-block content-date-month print-block">
+              <abbr title="01/06">Juin</abbr>
+            </span>
+            <span class="medium-block content-date-year print-block "> 2019<br></span>
+          </p>
+        <div class="col large-offset-3 small-col-8 small-offset-2 clear">
+        <p>
+          <i class="fas fa-square"></i>
+          Sensibilisation à la dématérialisation
+        </p>
+        </div>
+        <div class="col large-offset-3 small-col-8 smaheaderll-offset-2 clear">
+        <p>
+          <i class="fas fa-square"></i>
+          Lutte contre l'acculturation numérique
+        </p>
+        </div>
+        <div class="col large-offset-3 small-col-8 small-offset-2 clear">
+        <p>
+          <i class="fas fa-square"></i>
+          Sensibilisation à la dématérialisation
+        </p>
         </div>
       </div>
-
-    </header>
-    <div class="container-fluid bg-dark">
-      <div class="container text-center ">
-        <section id="about" >
-          <div class="call-to-action">
-            <h2 >Belkhadiri Rihab - Etudiante en Développement web </h2>
-            <hr>
-            <p >J’ai eu un Bac S avec mention très bien en arabie saudite, J’ai fait un an à la faculté des sciences et technology en informatique et mathématique. Actuellemnt je suis en Formation de dévellepement web au seins de ALAJI a viller lès nancy, c’étais le bon chois d’intégre cette formation car je suis entrain de faire des choses qui me plaire. Devenir une développeuse Web. Je suis prête et motivée pour
-              parfaire mes compétences acquise durant mon L1 Info-Math pour
-              faire de ma passion mon métier</p>
-            <div class="btn btn-default btn-lg">
-              <a id="cv" href="index/celinne.pdf" class="btn btn-default btn-xl hover" > Téléchargez mon CV !</a>
-            </div>
+      <hr>
+      <div class="row mmmb">
+        <p class="col-right large-col-8 large-offset-right-1 medium-col-10 medium-txt-left content-title txt-center print-col-10 print-txt-left">
+          Formatrice en langue étrangère Anglais
+        </p>
+        <div class="col-right large-col-8 large-offset-right-1 medium-col-10 medium-txt-left mmb txt-center print-col-10 print-txt-left">
+          <p class="inline-block"> Anglais Pro à Nancy</p>
+        </div>
+        <p class="col large-col-1 medium-col-1 small-col-4 xsmall-col-6 content-date mb bg-ming print-col-1 print-ming brp">
+          <span class="medium-block content-date-month print-block">November-Mars</span>
+          <span class="medium-block content-date-year print-block">2017-2019</span>
+        </p>
+        <div class="col large-offset-3 small-col-8 small-offset-2 clear">
+        <p>
+          <i class="fas fa-square"></i>
+          Animer des activités périscolaires en anglais
+        </p>
+        </div>
+        <div class="col large-offset-3 small-col-8 small-offset-2 clear">
+        <p>
+          <i class="fas fa-square"></i>
+          Prendre part à des réunions institutionnelles
+        </p>
+        </div>
+        <div class="col large-offset-3 small-col-8 small-offset-2 clear">
+        <p>
+          <i class="fas fa-square"></i>
+          Remplacements dans les écoles de Nancy et alentours </p> id="header"
+        </div>
+      </div>myHeader
+      <hr>
+      <div class="row mmmb">
+        <p class="col-right large-col-8 large-offset-right-1 medium-col-10 medium-txt-left content-title txt-center print-col-10 print-txt-left">
+          Animatrice volontaire
+        </p>
+        <div class="col-right large-col-8 large-offset-right-1 medium-col-10 medium-txt-left mmb txt-center print-col-10 print-txt-left">
+          <p class="inline-block">Institut scout et laïques (MJC) à Nancyy</p>
+        </div>
+        <p class="col large-col-1 medium-col-1 small-col-4 xsmall-col-6 content-date mb bg-ming print-col-1 print-ming brp">
+          <span class="medium-block content-date-month print-block">Avril</span>
+          <span class="medium-block content-date-year print-block">2018</span>
+        </p>
+        <div class="col largemyHeader-offset-3 small-col-8 small-offset-2 clear">
+        <p>
+          <i class="fas fa-square"></i>
+          Mise en place des structures pour l’épanouissement des enfants
+        </p>
+        </div>
+        <div class="col large-offset-3 small-col-8 small-offset-2 clear">
+        <p>
+          <i class="fas fa-square"></i>
+          Accompagner les enfants dans les activités et animationsproposées
+        </p>
+        </div>
+      </div>
+    </section>
+    <section id="interets">
+      <h2 class="title"> Intérêts</h2>
+      <p class="intro"></p>
+      <ul class="row txt-center">
+        <li class="col large-col-3 large-offset-1 medium-col-4 medium-offset-0 small-col-8 small-offset-2  mmmb effect-move print-col-4">
+          <i class="print-none block mmmmt mmmmb fas fa-laptop-code blue"></i>
+          <p class="mmmb bold">Développement</p>
+          <p class="xsmall">Découvrir de nouvelles techniques, technologies, s'y familiariser et les réutiliser au service de l'innovation.</p>
+        </li>
+        <li class="col large-col-3 large-offset-0-5 medium-col-4 medium-offset-0 small-col-8 small-offset-2 mmmb effect-move print-col-4">
+          <i class="print-none block mmmmt mmmmb fas fa-film purple"></i>
+          <p class="mmmb bold">Cinéma</p>
+          <p class="xsmall">S'interroger sur un thriller, s'inspirer avec de la science-fiction ou s'évader grâce au fantastique.</p>
+        </li>
+        <li class="col large-col-3 large-offset-0-5 medium-col-4 medium-offset-0 small-col-8 small-offset-2 mmmb effect-move print-col-4">
+          <i class="print-none block mmmmt mmmmb fas fa-utensils red"></i>
+          <p class="mmmb bold">Cuisine</p>
+          <p class="xsmall">Essayer de nouvelles recettes, mijoter de petits plats et séduire les papilles de mes convives.</p>
+        </li>
+      </ul>
+    </section>
+    <section id="contact">
+      <h2 class="title white print-black"> Contact</h2>
+      <p class="intro white print-black">N'hésitez pas!</p>
+      <ul class="row txt-center">
+        <li class="col large-col-3 large-offset-1 medium-col-4 medium-offset-0 small-col-8 small-offset-2 mmmmmt mmmmb bg-light border-orange effect-hover print-col-4 print-no-mt">
+          <div class="icon icon-contact bg-orange">
+          <i class="block fas fa-phone-square effect-shake"></i>
           </div>
-        </section>
-      </div>
-    </div>
-    <div class="container-fluid bg-light text blop ">
-      <div class="container text-center">
-        <section id="competences" >
-          <h2 >Compétences</h2>
-          <hr class="light">
-            <p>Internet :Utilisation très fréquente, Navigateurs et services internet</p>
-            <p>Développement : PYTHON, PHP,C.</>
-            <p>Standards informatiques :SQL, HTML, CSS, DOM (JavaScript),Bootstrap.</p>
-            <p>Systèmes d’exploitation :Windows , Linux</p>
-            <p>Forte en Informatique et Microsoft Office.</p>
-            <p>Prise d'initiatives et résolution de problèmes.</p>
-            <p>Aptitude à travailler en équipe.</p>
-            <p>Capacité à travailler sous pression et à gérer le stress.</p>
-            <p>Capacité à actualiser ses connaissances.</p>
-
-        </section>
-      </div>
-    </div>
-    <div class="container-fluid bg-dark text blop">
-      <div class="container text-center ">
-        <section id="formation"  >
-              <h3 ><strong> Mes Formations</strong></h3>
-              <hr class="light">
-
-                  <strong>2019-2020| Formation développeur web intégrateur niveau III</strong>
-                  <p >ALAJI | villers lès-Nancy</p>
-
-
-                  <strong>2018-2019 | L1 Informatique-Mathématique</strong>
-                  <p >Faculté des sciences et technologies |Vandœuvre lès Nancy</p>
-
-
-                  <strong>2017-2018 | Formation DEFLE</strong>
-                  <p>Faculté de lettres et sciences humaines</p>
-
-
-                  <strong>2015-2016 | Baccalauréat Scientifique, Mention très bien</strong>
-                  <p >Lycée 86éme | DjeddahArabie Saoudite</p>
-
-
-                  <strong>2013-2014 | Formation en Informatique générale</strong>
-                  <p >Lycée 86éme | DjeddahArabie Saoudite</p>
-
-
-        </section>
-      </div>
-    </div>
-    <div class="container-fluid bg-light blop">
-      <div class="container text-center ">
-        <section id="experiences">
-            <div class="container">
-                  <h3 class="cadre-text" ><strong>Expériences</strong></h3>
-                  <hr class="light">
-                    <strong>2019-2020 | Service civique à Pôle emploi, Nancy Cristallerie(8 mois)</strong>
-
-                        <p>Sensibilisation à la dématérialisation</p>
-                        <p>Lutte contre l'acculturation numérique</p>
-                        <p>Lutte contre l'acculturation numérique</p>
-
-                    <strong>2017-2019 | Formatrice en langue étrangère, Centre de Formation Anglais Pro à Nancy</strong>
-
-                        <p>Animer des activités périscolaires en anglais</p>
-                        <p>Prendre part à des réunions institutionnelles</p>
-                        <p>Faire des remplacements dans les écoles de la ville de Nancy et alentours</p>
-
-                    <strong>2017-2018 | Animatrice volontaire, Institut scout et laïques (MJC) à Nancy</strong>
-
-                        <p>Mise en place des structures pour l’épanouissement des enfants</p>
-                        <p>Accompagner les enfants dans les activités et animationsproposées</p>
-              </div>
-            </div>
+          <p class="contact-title" itemprop="telephone"><a href="tel:+33761222537">+33 7 61 22 25 37</a></p>
+        </li>
+        <li class="col large-col-3 large-offset-0-5 medium-col-4 medium-offset-0 small-col-8 small-offset-2 mmmmmt mmmmb bg-light border-cyan effect-hover print-col-4 print-no-mt">
+          <div class="icon icon-contact bg-cyan">
+          <i class="block fas fa-envelope effect-horizontal-translate"></i>
           </div>
-        </section>
-      </div>
-    </div>
-    <div class="container-fluid bg-dark blop">
+          <p class="contact-title" itemprop="email"><a href="mailto:rihabelkhadiri@hotmail.com" class="ema">rihabelkhadiri<span class="aro">@</span>hotmail.com</a></p>
+        </li>
+        <li class="col large-col-3 large-offset-0-5 medium-col-4 medium-offset-0 small-col-8 small-offset-2 mmmmmt mmmmb bg-light border-pistachio effect-hover print-col-4 print-no-mt">
+          <div class="icon icon-contact bg-pistachio">
+          <i class="block fas fa-map-marked-alt effect-vertical-translate"></i>
+          </div>
+          <p class="contact-title" itemprop="address" itemscope="" itemtype="http://schema.org/PostalAddress"><span itemprop="addressLocality"><a href="https://www.google.com/maps/place/11+Avenue+du+Charmois,+54500+Vand%C5%93uvre-l%C3%A8s-Nancy/@48.6668142,6.1704227,17z/data=!3m1!4b1!4m5!3m4!1s0x47949885044bae3b:0x8fcb131c2edff91!8m2!3d48.6668142!4d6.1726114">Vandœuvre-lès-Nancy</a></span></p>
+        </li>
+      </ul>
+    </section>
+    <footer>
+
+    </footer>
+    <!-- <div class="container-fluid bg-dark blop">
       <div class="container text-center ">
         <section  id="contact">
           <div class="container">
@@ -153,9 +258,9 @@
                   <p class="mail">Rihabelkhadiri@hotmail.com</p>
                   <p class="adresse">11,avenue du charmois 54500 NANCY, FRANCE</p>
                   <div class="wrapper">
-                    <a target="_blank" href="https://www.instagram.com/rihabek/"><i style="color:pink;"class="fa fa-3x fa-instagram"></i></a>
-                    <a target="_blank" href="https://www.facebook.com/rihab.bek.12"><i style="color:pink;" class="fa fa-3x fa-facebook-square"></i></a>
-                    <a target="_blank" href="https://twitter.com/login"><i style="color:pink;" class="fa fa-3x fa-twitter-square"></i>
+                    <a target="_blank" href="https://www.instagram.com/rihabek/"><i style="color:pink;"class="fas fa-3x fa-instagram"></i></a>
+                    <a target="_blank" href="https://www.facebook.com/rihab.bek.12"><i style="color:pink;" class="far fa-3x fa-facebook-square"></i></a>
+                    <a target="_blank" href="https://twitter.com/login"><i style="color:pink;" class="fas fa-3x fa-twitter-square"></i>
                   </div>
                 </div>
               </div>
@@ -163,31 +268,67 @@
           </div>
         </section>
       </div>
-    </div>
+    </div> -->
+    <!-- <div class="container-fluid bg-dark text blop">
+    <div class="container text-center ">
+    <section id="formation"  >
+    <h3 ><strong> Mes Formations</strong></h3>
+    <hr class="light">
 
-    <footer class="py-5 bg-dark text-white text-center bottom">
+    <strong>2019-2020| Formation développeur web intégrateur niveau III</strong>
+    <p >ALAJI | villers lès-NanmyHeadercy</p>
+
+
+    <strong>2018-2019 | L1 Informatique-Mathématique</strong>
+    <p >Faculté des sciences et technologies |Vandœuvre lès Nancy</p>
+
+
+    <strong>2017-2018 | Formation DEFLE</strong>
+    <p>Faculté de lettres et sciences humaines</p>
+
+
+    <strong>2015-2016 | Baccalauréat Scientifique, Mention très bien</strong>
+    <p >Lycée 86éme | DjeddahArabie Saoudite</p>
+
+myHeader
+    <strong>2013-2014 | Formation en Informatique générale</strong>
+    <p >Lycée 86éme | DjeddahArabie Saoudite</p>
+
+
+  </section>
+</div>
+</div> -->
+
+    <!-- <footer class="py-5 bg-dark text-white text-center bottom">
       <div class="container">
         Copyright @ Rihabel
       </div>
-    </footer>
-
-    <script type="text/javascript">
-      var elements = document.getElementById('navbarSupportedContent').querySelectorAll('[data-link]')
-      for (var i = 0;  i < elements.length; i++) {
-        elements[i].addEventListener('click', function (e) {
-          e.preventDefault();
-          var id = e.target.getAttribute('href')
-          var element = document.getElementById(id.replace('#', ''))
-          element.scrollIntoView({behavior: "smooth"})
-        })
+    </footer> -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <!-- <script src="https://raw.githubusercontent.com/mattboldt/typed.js/master/dist/typed.min.js"></script> -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script src="js/app.js"></script>
+    <script>
+      window.onscroll = function() {
+        stickScroll();
       }
+
+      var myHeader = document.getElementById('menu');
+      var stickyContent = myHeader.offsetTop;
+
+      function stickScroll() {
+        if (window.pageYOffset > stickyContent) {
+          myHeader.classList.add("sticky");
+        } else {
+          myHeader.classList.remove("sticky");
+        }
+      }
+
     </script>
-      <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
-      <script src="js/app.js"></script>
-      <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
-      <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
-      <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-      <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
   </body>
 </html>
