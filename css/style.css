@@ -347,7 +347,14 @@ section, .section {
 .mt {
     margin-top: 5px;
 }
-
+.iconn{
+  color: lightgray;
+  display: inline-block;
+  margin-top: -50px;
+  width: 100px;
+  font-size: 300%;
+  padding: 10px;
+}
 .content-title {
     font-size: 120%;
     font-weight: 700;
