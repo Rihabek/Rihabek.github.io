@@ -126,7 +126,6 @@ h1 {
 }
 #navbarSupportedContent {
     cursor: pointer;
-    display: none;
 }
 
 .navbar-nav li {
