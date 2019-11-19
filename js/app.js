@@ -7,11 +7,7 @@ for (var i = 0;  i < elements.length; i++) {
     element.scrollIntoView({behavior: "smooth"})
   })
 }
-$( document ).ready(function() {
-  $("#cv").click(function(){
-    $(this).css('color','#961108');
-    return false;
-  });
+
   $(this).closest(".dropdown").find(".dropdown-toggle").dropdown("toggle");
 
 
