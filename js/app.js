@@ -13,9 +13,8 @@ for (var i = 0;  i < elements.length; i++) {
 
   $('.navbar-nav').click(function() {
     $('.navbar-collapse').collapse('hide');
-  })
+  });
 
-});
 
 // When the user scrolls the page, execute myFunction
 window.onscroll = function() {myFunction()};
